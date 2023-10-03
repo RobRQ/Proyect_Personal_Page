@@ -39,23 +39,34 @@ body {
 .Personal-Information {
     display: flex;
     height: auto;
-}
-
-.Text-PI {
-    padding: 10px;
-    text-align: justify;
+    margin-top: 25px;
 }
 
 .Personal-Image {
-    width: 195px;
+    width: 200px;
     padding: 5px;
     margin-top: 5px;
     border: 2px solid black;
     background-color: #99b2b7;
 }
 
-.color1 { color: #d9ceb2 }
+#About-Me {
+    padding: 10px;
+    text-align: justify;
+}
+
+#My-Experience {
+    margin-top: 5px;
+}
+
+small {
+    text-align: center;
+    display: block;
+    margin-top: 400px;
+}
+
+/* .color1 { color: #d9ceb2 }
 .color2 { color: #948c75 }
 .color3 { color: #d5ded9 }
 .color4 { color: #978060 }
-.color5 { color: #99b2b7 }
+.color5 { color: #99b2b7 } */
