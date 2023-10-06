@@ -5,18 +5,20 @@ body {
     padding: 1;
 }
 
-.img-navbar {
-    text-align: center;
-    display: block; /*elimina espacios en blanco*/
-    margin: 0 auto;
-    padding: 10px;
-    width: auto;
-    height: 125px;
+p {
+    font-size: 1.5em;
 }
 
-/* Estilos de la barra lateral */
+.img-header {
+    height: 125px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    display: block; /*elimina espacios en blanco*/
+    width: auto;
+}
+
 .navegation-bar {
-    background-color: #978060; /* Color de fondo de la barra lateral */
     border: 1px solid black;
     display: flex; /* modo de caja flexible */
     flex-direction: row; /* Los elementos se colocarán en fila */
@@ -24,16 +26,19 @@ body {
 }
 
 .navbar-content {
-    flex: 1; /* Hace que los elementos se distribuyan verticalmente de manera uniforme */
+    background-color: #978060;
+    flex: auto; /* Hace que los elementos se distribuyan verticalmente de manera uniforme */
     padding: 15px;
     color: black; /* Color del texto */
     text-align: center; /* Centra el texto horizontalmente */
     border: 1px solid black; /* Línea divisoria entre elementos */
-    transition: background-color 0.3s; /* Efecto de transición en el color de fondo */
+    transition: background-color 0.5s;/* transition: background-color 0.3s; Efecto de transición en el color de fondo */
+    text-decoration: none;
 }
 
 .navbar-content:hover {
-    background-color: #948c75; /* Cambia el color de fondo al pasar el mouse */
+    background-color: #99b2b7; /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.25);
 }
 
 .Personal-Information {
@@ -43,7 +48,7 @@ body {
 }
 
 .Personal-Image {
-    width: 200px;
+    width: 50em;
     padding: 5px;
     margin-top: 5px;
     border: 2px solid black;
@@ -58,16 +63,23 @@ body {
 #My-Experience {
     margin-top: 5px;
     padding: 5px;
+    font-size: 1.5em;
+}
+
+.Experience {
+    font-size: 1.25em;
+    margin-top: 25px;
 }
 
 small {
+    color: black;
     text-align: center;
     display: block;
     margin-top: 400px;
 }
 
-/* .color1 { color: #d9ceb2 }
+.color1 { color: #d9ceb2 }
 .color2 { color: #948c75 }
 .color3 { color: #d5ded9 }
 .color4 { color: #978060 }
-.color5 { color: #99b2b7 } */
+.color5 { color: #99b2b7 }
