@@ -1,81 +1,83 @@
-/* Estilos generales */
+
 body {
-    background-color: #d9ceb2;
-    margin: 1;
-    padding: 1;
+  background-color: #d9ceb2;
+  margin: 1;
+  padding: 1;
 }
 
-p {
-    font-size: 1.5em;
+main {
+  padding: 16px;
+}
+
+p, li{
+  font-size: 1.5em;
 }
 
 .img-header {
-    height: 125px;
-    margin: 0 auto;
-    padding: 5px;
-    text-align: center;
-    display: block; /*elimina espacios en blanco*/
-    width: auto;
+  height: 125px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  display: block; /*elimina espacios en blanco*/
+  width: auto;
 }
 
 .navegation-bar {
-    border: 1px solid black;
-    display: flex; /* modo de caja flexible */
-    flex-direction: row; /* Los elementos se colocarán en fila */
-    flex-wrap: wrap; /* por si la cantidad de elementos rebasa la pantalla */
+  border: 1px solid black;
+  display: flex; /* modo de caja flexible */
+  flex-direction: row; /* Los elementos se colocarán en fila */
+  flex-wrap: wrap; /* por si la cantidad de elementos rebasa la pantalla */
 }
 
 .navbar-content {
-    background-color: #978060;
-    flex: auto; /* Hace que los elementos se distribuyan verticalmente de manera uniforme */
-    padding: 15px;
-    color: black; /* Color del texto */
-    text-align: center; /* Centra el texto horizontalmente */
-    border: 1px solid black; /* Línea divisoria entre elementos */
-    transition: background-color 0.5s;/* transition: background-color 0.3s; Efecto de transición en el color de fondo */
-    text-decoration: none;
+  background-color: #978060;
+  flex: auto; /* Hace que los elementos se distribuyan verticalmente de manera uniforme */
+  padding: 15px;
+  color: black; /* Color del texto */
+  text-align: center; /* Centra el texto horizontalmente */
+  border: 1px solid black; /* Línea divisoria entre elementos */
+  transition: background-color 0.5s;/* transition: background-color 0.3s; Efecto de transición en el color de fondo */
+  text-decoration: none;
 }
 
 .navbar-content:hover {
-    background-color: #99b2b7; /* Cambia el color de fondo al pasar el mouse */
-    transform: scale(1.25);
+  background-color: #99b2b7; /* Cambia el color de fondo al pasar el mouse */
+  transform: scale(1.25);
 }
 
-.Personal-Information {
-    display: flex;
-    height: auto;
-    margin-top: 25px;
+#Personal-Information {
+  display: flex;
+  height: auto;
+  margin-top: 25px;
 }
 
 .Personal-Image {
-    width: 50em;
-    padding: 5px;
-    margin-top: 5px;
-    border: 2px solid black;
-    background-color: #99b2b7;
+  width: 50em;
+  padding: 5px;
+  margin-top: 5px;
+  border: 2px solid black;
+  background-color: #99b2b7;
 }
 
-#About-Me {
-    padding: 10px;
-    text-align: justify;
+.About-Me {
+  padding: 10px;
+  text-align: justify;
 }
 
 #My-Experience {
-    margin-top: 5px;
-    padding: 5px;
-    font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
 
-.Experience {
-    font-size: 1.25em;
-    margin-top: 25px;
+.Experience-content:hover {
+  background-color: #948c75;
 }
 
 small {
-    color: black;
-    text-align: center;
-    display: block;
-    margin-top: 400px;
+  color: black;
+  text-align: center;
+  display: block;
+  margin-top: 400px;
 }
 
 .color1 { color: #d9ceb2 }
