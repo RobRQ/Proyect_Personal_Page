@@ -13,6 +13,20 @@ main, nav{
 p, li{
   font-size: 1.5em;
   margin: 0;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 1%;
+}
+
+small {
+  color: black;
+  text-align: center;
+  display: block;
+  font-size: 1.2em;
 }
 
 .img-header {
@@ -68,25 +82,28 @@ p, li{
 }
 
 #My-Experience {
-  margin: 0 0 10% 0;
   display: flex;
   flex-direction: column;
+  margin: 0 0 5% 0;
 }
+
+
 
 .Experience-content:hover {
   background-color: #948c75;
 }
 
-#Contact-Information {
-  margin: 0 15% 10% 15%;
-  text-align: center;
-  border: 1px solid black;
-  padding: 15px;
+#Soft-Skills {
+  margin: 0 0 15% 0;
 }
 
-small {
-  color: black;
+#Contact-Information {
+  margin: 0 15% 15% 15%;
+  border: 1px solid black;
+}
+
+#Contact-Information p {
+  font-size: 1.1em;
+  padding: 15px;
   text-align: center;
-  display: block;
-  font-size: 1.2em;
 }
