@@ -10,13 +10,13 @@ main, nav{
   padding: 15px;
 }
 
-p, li{
-  font-size: 1.5em;
+p, li, h2{
+  font-size: 1.4em;
   margin: 0;
   text-align: justify;
 }
 
-h1 {
+h1{
   text-align: center;
   padding: 0;
   margin: 1%;
@@ -65,8 +65,7 @@ small {
 
 #Personal-Information {
   display: flex;
-  padding: 50px;
-  margin: 5% 0 5% 0;
+  padding: 100px 100px 100px 100px;
 }
 
 .Personal-Image {
@@ -82,28 +81,36 @@ small {
 }
 
 #My-Experience {
+  padding: 0 100px 0 100px;
+}
+
+.Laboral-Experiences li{
+  padding: 2.5px;
+}
+
+.Other-Experiences {
   display: flex;
-  flex-direction: column;
-  margin: 0 0 5% 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-
-
-.Experience-content:hover {
-  background-color: #948c75;
-}
-
-#Soft-Skills {
-  margin: 0 0 15% 0;
-}
-
-#Contact-Information {
-  margin: 0 15% 15% 15%;
-  border: 1px solid black;
-}
-
-#Contact-Information p {
-  font-size: 1.1em;
-  padding: 15px;
+#Contact-Information { 
+  padding: 50px 33% 50px 33%;
   text-align: center;
+}
+
+.Contact-Icon {
+  background-color: #978060;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 25%;
+  transition: background-color 0.5s;
+  transition: rotate 0.5s;
+  margin: 15px;
+}
+
+.Contact-Icon:hover {
+  background-color: #d5dEd9;
+  transform: translateY(-15px);
 }
