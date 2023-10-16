@@ -29,6 +29,20 @@ small {
   font-size: 1.2em;
 }
 
+#V-English {
+  font-size: 15px;
+  color: black;
+  border: 1px solid black;
+  background-color: #685336;
+  text-decoration: none;
+  padding: 2.5px;
+  transition: background-color 0.5s;
+}
+
+#V-English:hover {
+  background-color: #ecd592;
+}
+
 .img-header {
   height: 12em;
   margin: 0 auto;
