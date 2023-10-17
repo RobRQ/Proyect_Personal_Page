@@ -1,8 +1,4 @@
 
-@media (min-width: 1025px) {
-  /* Estilos para pantallas grandes */
-}
-
 body {
   font-family: 'Roboto Mono', monospace;
   background-color: #d7cab8;
@@ -119,8 +115,7 @@ small {
 }
 
 #Contact-Information { 
-  padding: 50px 33% 50px 33%;
-  margin: 0 3.125em 0 3.125em;
+  margin: 3.125em 3.125em 3.125em 3.125em;
   text-align: center;
 }
 
@@ -130,7 +125,6 @@ small {
   border: 1px solid black;
   border-radius: 25%;
   transition: background-color 0.5s;
-  margin: 15px;
 }
 
 .Contact-Icon:hover {
